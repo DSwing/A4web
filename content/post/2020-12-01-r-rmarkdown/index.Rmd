@@ -7,10 +7,10 @@ tags:
 - R Markdown
 - plot
 - regression
-output:
-  html_document:
-    includes:
-      in_header: pitagora_script.html
+# output:
+#   html_document:
+#     includes:
+#       in_header: pitagora_script.html
 ---
 
 ```{r setup, include=FALSE}
@@ -18,7 +18,7 @@ knitr::opts_chunk$set(collapse = TRUE)
 ```
 
 ```{r}
-htmltools::includeHTML("prova.html")
+htmltools::includeHTML("pitagora_script.html")
 htmltools::includeHTML("pitagora.html")
 ```
 
