@@ -10,9 +10,12 @@ tags: ["R Markdown", "plot", "regression"]
 knitr::opts_chunk$set(collapse = TRUE, echo=FALSE)
 ```
 
+
 ```{r}
+
 htmltools::includeHTML("head_custom.html")
 htmltools::includeHTML("pitagora_script.html")
-htmltools::includeHTML("pitagora.html")
+#htmltools::includeHTML("pitagora.html")
 ```
 
+<div id="CSCanvas" class="CindyJS-widget">
