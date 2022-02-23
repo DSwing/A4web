@@ -1,0 +1,22 @@
+---
+title: Costruzione geometrica
+author: Domenico Guadalupi
+date: '2022-02-23'
+slug: costruzione-geometrica
+categories:
+  - Geometria
+tags: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo=FALSE)
+```
+
+
+```{r}
+htmltools::includeHTML("head_custom.html")
+htmltools::includeHTML("construction_script.html")
+#htmltools::includeHTML("construction.html")
+```
+
+<div id="CSCanvas" class="CindyJS-widget">
