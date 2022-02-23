@@ -1,22 +1,16 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: '2020-12-01T21:13:14-05:00'
-categories: R
+title: "Pitagora"
+author: "Domenico Guadalupi"
+date: '2022-02-23T04:45:14-05:00'
+categories: Geometria
 tags:
-- R Markdown
-- plot
-- regression
-# output:
-#   html_document:
-#     includes:
-#       in_header: pitagora_script.html
+- Pitagora
+- dimostrazione
 ---
 
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
-<pre class="r"><code>htmltools::includeHTML(&quot;pitagora_script.html&quot;)</code></pre>
 
 <script id="csdraw" type="text/x-cindyscript">
 l=|O,M|/|M,N|;
@@ -182,7 +176,6 @@ createCindy({
         { id: "CSCanvas", width: 751, height: 520, transform: [ { visibleRect: [ -12, 22, 23, -22] } ], background: "rgb(255,255,255)" } ], 
     cinderella: { build: 1801, version: [ 2, 9, 1801 ] } });
 </script>
-htmltools::includeHTML("pitagora.html")
 <div style="float: center;">
 <div id="CSCanvas" class="CindyJS-widget" style="width: 751px; height: 520px;">
   <canvas style="position: absolute; border: medium none; top: 0px; left: 0px; padding: 0px; margin: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);" width="751" height="520">
@@ -215,16 +208,13 @@ Profit!</li>
 <h1>R Markdown</h1>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
 <p>You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)
-##      speed           dist       
+<pre><code>##      speed           dist       
 ##  Min.   : 4.0   Min.   :  2.00  
 ##  1st Qu.:12.0   1st Qu.: 26.00  
 ##  Median :15.0   Median : 36.00  
 ##  Mean   :15.4   Mean   : 42.98  
 ##  3rd Qu.:19.0   3rd Qu.: 56.00  
 ##  Max.   :25.0   Max.   :120.00
-fit &lt;- lm(dist ~ speed, data = cars)
-fit
 ## 
 ## Call:
 ## lm(formula = dist ~ speed, data = cars)
@@ -236,13 +226,6 @@ fit
 <div id="including-plots" class="section level1">
 <h1>Including Plots</h1>
 <p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
-<pre class="r"><code>par(mar = c(0, 1, 0, 1))
-pie(
-  c(280, 60, 20),
-  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
-  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
-  init.angle = -50, border = NA
-)</code></pre>
 <div class="figure"><span style="display:block;" id="fig:pie"></span>
 <img src="{{< blogdown/postref >}}index_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
 <p class="caption">

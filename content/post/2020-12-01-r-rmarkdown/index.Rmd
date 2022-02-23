@@ -1,20 +1,15 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: '2020-12-01T21:13:14-05:00'
-categories: R
+title: "Pitagora"
+author: "Domenico Guadalupi"
+date: '2022-02-23T04:45:14-05:00'
+categories: Geometria
 tags:
-- R Markdown
-- plot
-- regression
-# output:
-#   html_document:
-#     includes:
-#       in_header: pitagora_script.html
+- Pitagora
+- dimostrazione
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
+knitr::opts_chunk$set(collapse = TRUE, echo=FALSE)
 ```
 
 ```{r}
