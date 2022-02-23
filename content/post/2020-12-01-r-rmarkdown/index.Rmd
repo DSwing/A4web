@@ -1,9 +1,16 @@
 ---
 title: "Hello R Markdown"
 author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+date: '2020-12-01T21:13:14-05:00'
+categories: R
+tags:
+- R Markdown
+- plot
+- regression
+output:
+  html_document:
+    includes:
+      in_header: pitagora_script.html
 ---
 
 ```{r setup, include=FALSE}
@@ -11,7 +18,8 @@ knitr::opts_chunk$set(collapse = TRUE)
 ```
 
 ```{r}
-summary(Orange)
+htmltools::includeHTML("prova.html")
+htmltools::includeHTML("pitagora.html")
 ```
 
 - [x] Write an R package.

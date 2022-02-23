@@ -1,22 +1,40 @@
 ---
 title: "Hello R Markdown"
 author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+date: '2020-12-01T21:13:14-05:00'
+categories: R
+tags:
+- R Markdown
+- plot
+- regression
+output:
+  html_document:
+    includes:
+      in_header: pitagora_script.html
 ---
 
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
-<pre class="r"><code>summary(Orange)
-##  Tree       age         circumference  
-##  3:7   Min.   : 118.0   Min.   : 30.0  
-##  1:7   1st Qu.: 484.0   1st Qu.: 65.5  
-##  5:7   Median :1004.0   Median :115.0  
-##  2:7   Mean   : 922.1   Mean   :115.9  
-##  4:7   3rd Qu.:1372.0   3rd Qu.:161.5  
-##        Max.   :1582.0   Max.   :214.0</code></pre>
+<pre class="r"><code>htmltools::includeHTML(&quot;prova.html&quot;)</code></pre>
+<h1>prova</h1>
+<p>This is an R HTML document. When you click the <b>Knit HTML</b> button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
+htmltools::includeHTML("pitagora.html")
+<div style="float: center;">
+<div id="CSCanvas" class="CindyJS-widget" style="width: 751px; height: 520px;">
+  <canvas style="position: absolute; border: medium none; top: 0px; left: 0px; padding: 0px; margin: 0px; height: 100%; width: 100%; background-color: rgb(255, 255, 255);" width="751" height="520">
+  </canvas>
+  <div style="position: absolute; transition: 0s; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+    <div style="position: absolute; transition: 0s; left: 0; top: 0; width: 100000px; height: 100000px">
+    </div>
+  </div>
+  <div style="position: absolute; transition: 0s; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+    <div style="position: absolute; transition: 0s; left: 0; top: 0; width: 200%; height: 200%">
+    </div>
+  </div>
+</div>
+</div>  
+
 <ul class="task-list">
 <li><input type="checkbox" disabled="" checked="" />
 Write an R package.</li>
