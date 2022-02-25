@@ -22,3 +22,4 @@ htmltools::includeHTML("pitagora_script.html")
 
 Confrontiamo la lunghezza del testo con la larghezza del canvas che contiene l'applet. Questo testo dovrebbe essere sufficiente.
 
+
