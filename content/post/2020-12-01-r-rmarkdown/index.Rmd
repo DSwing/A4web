@@ -19,7 +19,6 @@ htmltools::includeHTML("pitagora_script.html")
 ```
 <div id="CSCanvas" class="CindyJS-widget"></div>
 
-
 Confrontiamo la lunghezza del testo con la larghezza del canvas che contiene l'applet. Questo testo dovrebbe essere sufficiente.
 
 
