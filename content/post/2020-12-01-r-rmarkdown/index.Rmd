@@ -15,7 +15,6 @@ knitr::opts_chunk$set(collapse = TRUE, echo=FALSE)
 
 htmltools::includeHTML("head_custom.html")
 htmltools::includeHTML("pitagora_script.html")
-#htmltools::includeHTML("pitagora.html")
 ```
 <div id="CSCanvas" class="CindyJS-widget"></div>
 
