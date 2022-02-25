@@ -14,7 +14,6 @@ knitr::opts_chunk$set(collapse = TRUE, echo=FALSE)
 
 
 ```{r}
-htmltools::includeHTML("head_custom.html")
 htmltools::includeHTML("construction_script.html")
 ```
 
