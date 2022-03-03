@@ -17,14 +17,14 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-      url: https://github.com/rstudio/blogdown
-    - name: Twitter
-      url: https://twitter.com/rstudio
+      url: https://github.com/DSwing/A4web
+    - name: Instagram
+      url: https://www.instagram.com/
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
   description: A website built through Hugo and blogdown.
-  favicon: favicon.ico
+  favicon: images/logo.png
   highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
   highlightjsLang:
     - r
@@ -32,7 +32,7 @@ params:
   highlightjsTheme: github
   highlightjsVersion: 9.12.0
   logo:
-    alt: Logo
+    alt: logo
     height: 50
     url: logo_A4_mani.png
     width: 50

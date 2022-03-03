@@ -3,8 +3,7 @@ title: Costruzione geometrica
 author: Domenico Guadalupi
 date: '2022-02-23'
 slug: costruzione-geometrica
-categories:
-  - Geometria
+categories: ["geom"]
 tags: []
 ---
 

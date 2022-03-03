@@ -2,7 +2,7 @@
 title: "Pitagora"
 author: "Domenico Guadalupi"
 date: '2022-02-23'
-categories: ["Geometria"]
+categories: geom
 tags: ["R Markdown", "plot", "regression"]
 ---
 

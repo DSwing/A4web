@@ -1,0 +1,9 @@
+---
+title: "Geometry 1.2"
+author: "Sabrina"
+date: "28/2/2022"
+output: html_document
+categories: ["geom"]
+---
+
+First post about geometry in folder 2
