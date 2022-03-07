@@ -1,8 +1,10 @@
 ---
 date: "2022-02-28"
-title: Abstract
+title: A4 mani
 ---
+<center>
+<img src="images/logo_A4_mani.png" width="30%">  
+</center>  
 
-
-This is a "hello world" example website for the [**blogdown**](https://github.com/rstudio/blogdown) package. I'm trying to create my first blog.
-This should be the home page abstract.
+Benvenuti,  
+A4 mani è un luogo dove parliamo di scienza. Siamo convinti che la scienza sia un gioco, il più divertente. Che l'unico modo di impararla sia giocare. Che la spinta più grande al progresso sia la pura gioia della scoperta. Che chiunque con questa prospettiva possa imparare anche i concetti più complessi.

@@ -1,0 +1,22 @@
+---
+title: "Teorema di Pitagora"
+author: "Domenico Guadalupi"
+date: '2022-02-23'
+categories: geom
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, echo=FALSE)
+```
+
+
+```{r}
+htmltools::includeHTML("pitagora_script.html")
+```
+*Dimostrazione di Perigal*
+<div id="CSCanvas" class="CindyJS-widget"></div>
+
+La dimostrazione di Perigal del Teorema di Pitagora è estremamente intuitiva. Permettere di cogliere al volo il significato del teorema di Pitagora. Sapevate che il teorema è valido non solo per i quadrati costruiti sui lati del triangolo rettangolo? Possiamo sostituire il quadrato con qualunque poligono regolare. Provare per credere! 
+
+
